@@ -1,8 +1,8 @@
-# unusepram
+# unuseparam
 
 [![pkg.go.dev][gopkg-badge]][gopkg]
 
-`unusepram` finds a unused parameter but its name is not `_`.
+`unuseparam` finds a unused parameter but its name is not `_`.
 
 ```go
 package a
@@ -38,12 +38,12 @@ You can use [unuseparam.Analyzer](https://pkg.go.dev/github.com/gostaticanalysis
 
 ## Fix unused parameters
 
-`fixunusepram` command check and fix unused parameter to `_`.
+`fixunuseparam` command check and fix unused parameter to `_`.
 
 ```sh
-$ go install github.com/gostaticanalysis/unusepram/cmd/fixunusepram@latest
-$ fixunusepram ./...
+$ go install github.com/gostaticanalysis/unuseparam/cmd/fixunuseparam@latest
+$ fixunuseparam ./...
 ```
 <!-- links -->
-[gopkg]: https://pkg.go.dev/github.com/gostaticanalysis/unusepram
-[gopkg-badge]: https://pkg.go.dev/badge/github.com/gostaticanalysis/unusepram?status.svg
+[gopkg]: https://pkg.go.dev/github.com/gostaticanalysis/unuseparam
+[gopkg-badge]: https://pkg.go.dev/badge/github.com/gostaticanalysis/unuseparam?status.svg
