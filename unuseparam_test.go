@@ -3,8 +3,8 @@ package unuseparam_test
 import (
 	"testing"
 
-	"unuseparam"
 	"github.com/gostaticanalysis/testutil"
+	"github.com/gostaticanalysis/unuseparam"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 

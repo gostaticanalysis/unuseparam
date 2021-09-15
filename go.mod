@@ -1,4 +1,4 @@
-module unuseparam
+module github.com/gostaticanalysis/unuseparam
 
 go 1.16
 
